@@ -1,0 +1,171 @@
+html,body{
+  position: relative;
+  background-image: url('bg.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+  -webkit-font-smoothing: antialiased; /* For Safari, Chrome, Edge */
+  -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.contain{
+  position: absolute;
+  top: 0;
+  background-image: url('istockphoto-1281041623-612x612.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.App{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.nav-ul{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li a{
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.nav-ul li a:hover{
+  color: brown;
+}
+.logo{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.in{
+  width: 40%;
+  margin: 0 auto;
+  margin-top:25px ;
+  border: 1px solid blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in h3{
+  margin: 25px;
+
+}
+
+.prod .input-element{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  padding-left: 21px;
+  border: 1px solid blanchedalmond;
+}
+.inputBox{
+  background: transparent;
+  color: white;
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid blanchedalmond;
+}
+
+.in button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  padding: 12px;
+  width: 18%;
+  background-color: blanchedalmond;
+  border-color: rgb(161, 118, 60);
+  outline: none;
+  color:  rgb(161, 118, 60);
+  margin-bottom: 20px;
+}
+
+.in button:hover{
+  background-color: rgb(161, 118, 60);
+  border-color: blanchedalmond;
+  color: blanchedalmond;
+
+}
+
+span.error-message {
+  color: red;
+  font-size: 9px;
+}
+
+.prod{
+  text-align: center;
+}
+
+.prod ul li{
+  display: inline-block;
+  list-style: none;
+  border: 1px solid blanchedalmond;
+  padding: 20px;
+  width: 150px;
+  
+}
+
+.prod ul {
+  margin: 0;
+}
+
+.footed h3{
+  position: absolute;
+bottom: 0;
+width: 100%;
+color: blanchedalmond;
+background-color: black;
+text-align: center;
+margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
